@@ -32,10 +32,7 @@ object Dependencies {
     val slf4j                = "1.7.26"
     val config               = "1.3.4"
     val prometheus           = "0.6.0"
-    /** TODO Make sure cbor version stays aligned with jackson-core
-     *  See snowplow/snowplow/issues/4266
-     */
-    val cbor                 = "2.9.10"
+    val cbor                 = "2.9.10" // See snowplow/snowplow/issues/4266
     // Scala
     val collectorPayload     = "0.0.0"
     val scalaz7              = "7.0.9"
